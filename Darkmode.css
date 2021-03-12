@@ -5,242 +5,240 @@
 @description    a simple less eye burning colour change for turntable.fm
 @author         MadTanker
 ==/UserStyle== */
-@-moz-document domain("turntable.fm") {
 
-	/*private chat*/
-	#buddyList {
-		background: #404040
-	}
-	.avatar-head {
-		background-color: #666
-	}
-	.conversations-list > ul > * {
-		border-bottom: none;
-	}
-	.striped-list > :nth-child(odd):not(.separator),
-	.conversations-list > ul > :nth-child(odd):not(.separator),
-	.message-history > :nth-child(odd):not(.separator),
-	.guest-list > :nth-child(odd):not(.separator) {
-		background: #282828;
-	}
-	.striped-list > :nth-child(even):not(.separator),
-	.conversations-list > ul > :nth-child(even):not(.separator),
-	.message-history > :nth-child(even):not(.separator),
-	.guest-list > :nth-child(even):not(.separator) {
-		background: #404040;
-	}
-	.conversation-item .conversation-info .conversation-username {
-		color: #f3cc13;
-	}
-	.message-view {
-		color: white
-	}
-	.message-view .message-username {
-		color: #f3cc13
-	}
-	.conversation-item .conversation-info .conversation-user-room .conversation-user-room-link {
-		color: white;
-	}
-	.conversation-item .conversation-info .conversation-user-room {
-		color: white;
-	}
-	.striped-list > :nth-child(odd):not(.separator):not(.no-hover):hover,
-	.conversations-list > ul > :nth-child(odd):not(.separator):not(.no-hover):hover,
-	.message-history > :nth-child(odd):not(.separator):not(.no-hover):hover,
-	.guest-list > :nth-child(odd):not(.separator):not(.no-hover):hover {
-		background: #404040
-	}
-	.striped-list > :nth-child(even):not(.separator):not(.no-hover):hover,
-	.conversations-list > ul > :nth-child(even):not(.separator):not(.no-hover):hover,
-	.message-history > :nth-child(even):not(.separator):not(.no-hover):hover,
-	.guest-list > :nth-child(even):not(.separator):not(.no-hover):hover {
-		background: #282828;
-	}
-	.striped-list > *,
-	.conversations-list > ul > *,
-	.message-history > *,
-	.guest-list > * {
-		border-bottom: none;
-	}
-	.message-input-view {
-		background-image: linear-gradient(to bottom, #666, #404040, #666)
-	}
+/*private chat*/
+#buddyList {
+	background: #404040!important
+}
+.avatar-head {
+	background-color: #666!important
+}
+.conversations-list > ul > * {
+	border-bottom: none;!important
+}
+.striped-list > :nth-child(odd):not(.separator),
+.conversations-list > ul > :nth-child(odd):not(.separator),
+.message-history > :nth-child(odd):not(.separator),
+.guest-list > :nth-child(odd):not(.separator) {
+	background: #282828;!important
+}
+.striped-list > :nth-child(even):not(.separator),
+.conversations-list > ul > :nth-child(even):not(.separator),
+.message-history > :nth-child(even):not(.separator),
+.guest-list > :nth-child(even):not(.separator) {
+	background: #404040;!important
+}
+.conversation-item .conversation-info .conversation-username {
+	color: #f3cc13;!important
+}
+.message-view {
+	color: white!important
+}
+.message-view .message-username {
+	color: #f3cc13!important
+}
+.conversation-item .conversation-info .conversation-user-room .conversation-user-room-link {
+	color: white;!important
+}
+.conversation-item .conversation-info .conversation-user-room {
+	color: white;!important
+}
+.striped-list > :nth-child(odd):not(.separator):not(.no-hover):hover,
+.conversations-list > ul > :nth-child(odd):not(.separator):not(.no-hover):hover,
+.message-history > :nth-child(odd):not(.separator):not(.no-hover):hover,
+.guest-list > :nth-child(odd):not(.separator):not(.no-hover):hover {
+	background: #404040!important
+}
+.striped-list > :nth-child(even):not(.separator):not(.no-hover):hover,
+.conversations-list > ul > :nth-child(even):not(.separator):not(.no-hover):hover,
+.message-history > :nth-child(even):not(.separator):not(.no-hover):hover,
+.guest-list > :nth-child(even):not(.separator):not(.no-hover):hover {
+	background: #282828;!important
+}
+.striped-list > *,
+.conversations-list > ul > *,
+.message-history > *,
+.guest-list > * {
+	border-bottom: none;!important
+}
+.message-input-view {
+	background-image: linear-gradient(to bottom, #666, #404040, #666)!important
+}
 
 
-	/*queue tab*/
-	.floating-panel-header {
-		background-image: linear-gradient(to bottom, #666, #404040, #666);
-		border-top: none;
-		border-bottom: solid 1px #666;
-		text-shadow: none;
-	}
-	.panel-button {
-		background: #404040;
-		color: white;
-		font-weight: normal;
-		box-shadow: 1px 1px 1px black;
-		border: none;
-	}
-	.panel-button:hover:not(.disabled) {
-		background: #0081b4
-	}
-	#queue-header {
-		background: linear-gradient(to bottom, #666, #404040, #666);
-		border-top: 1px #666;
-	}
-	.floating-menu .option {
-		color: white;
-		background: #404040;
-	}
-	.floating-menu .option.active {
-		background: #f3cc13;
-	}
+/*queue tab*/
+.floating-panel-header {
+	background-image: linear-gradient(to bottom, #666, #404040, #666);!important
+border-top: none;!important
+border-bottom: solid 1px #666;!important
+text-shadow: none;!important
+}
+.panel-button {
+	background: #404040;!important
+color: white;!important
+font-weight: normal;!important
+box-shadow: 1px 1px 1px black;!important
+border: none;!important
+}
+.panel-button:hover:not(.disabled) {
+	background: #0081b4!important
+}
+#queue-header {
+	background: linear-gradient(to bottom, #666, #404040, #666);!important
+border-top: 1px #666;!important
+}
+.floating-menu .option {
+	color: white;!important
+background: #404040;!important
+}
+.floating-menu .option.active {
+	background: #f3cc13;!important
+}
 
-	#songs {
-		background-color: #404040
-	}
-	.song-list {
-		background: #404040
-	}
-	.song-list ul.songs {
-		background: #404040
-	}
-	.song .progress {
-		background-color: #f3cc13;
-	}
-	/*Room tab*/
-	.sliding-nav .sliding-nav-pane-content {
-		background-color: #404040;
-	}
-	.tabbed-panel a,
-	.tabbed-panel a:visited {
-		color: #f3cc13
-	}
-	.room-tab .room-info-intro {
-		color: white;
-		border-bottom: 0
-	}
-	.room-tab .room-info-wrap {
-		background: #404040;
-		border-bottom: 0;
-	}
-	.room-tab .room-name,
-	.room-tab .num-listeners,
-	.room-tab .description-wrap {
-		color: white;
-	}
-	.flat-button {
-		background-color: #404040;
-		background-image: linear-gradient(to bottom, #484848, #303030);
-		border: none;
-		color: white;
-		box-shadow: 1px 1px 1px black;
-	}
-	.flat-button:hover {
-		background: none;
-		border: none;
-	}
-	.room-tab .room-info-link h3 {
-		color: white;
-	}
-	/*recently played*/
-	.striped-list > :nth-child(odd):not(.separator),
-	.song-list > ul > :nth-child(odd):not(.separator) {
-		background: #282828;
-		border: 0;
-	}
-	.striped-list > :nth-child(even):not(.separator),
-	.song-list > ul > :nth-child(even):not(.separator) {
-		background: #404040;
-		border: 0;
-	}
-	.striped-list > :nth-child(odd):not(.separator):not(.no-hover):hover,
-	.song-list > ul > :nth-child(odd):not(.separator):not(.no-hover):hover {
-		background: #404040;
-	}
-	.striped-list > :nth-child(even):not(.separator):not(.no-hover):hover,
-	.song-list > ul > :nth-child(even):not(.separator):not(.no-hover):hover {
-		background: #282828;
-	}
-	.song .title,
-	.song .details {
-		color: white
-	}
-	/*trending songs*/
-	.default-message {
-		color: white;
-		text-shadow: none;
-	}
-	/*people here*/
-	.striped-list,
-	.conversations-list > ul,
-	.message-history,
-	.guest-list {
-		background: #404040
-	}
-	.guest-list > :nth-child(even):not(.separator) {
-		background: #282828
-	}
-	.guest-list > :nth-child(odd):not(.separator) {
-		background: #404040
-	}
-	.guest-list .guest-name,
-	.guest-count {
-		color: #f3cc13
-	}
-	.guest-list > :nth-child(even):not(.separator):not(.no-hover):hover,
-	.guest-list > :nth-child(odd):not(.separator):not(.no-hover):hover {
-		background: #0081b4;
-	}
-	.tabbed-panel .separator {
-		border-top: 0;
-		border-bottom: 0px;
-		background-color: #404040;
-		background-image: linear-gradient(to bottom, #484848, #303030);
-		text-shadow: 3px 1px #000;
-		color: white
-	}
-	.sliding-nav .sliding-nav-pane-header {
-		background-color: #484848;
-		background-image: linear-gradient(to bottom, #484848, #303030);
-		box-shadow: none;
-	}
-	.sliding-nav .sliding-nav-pane-title {
-		border-top: 0;
-		border-bottom: 0;
-		text-shadow: 3px 1px #000;
-		color: white;
-	}
-	/*chat tab*/
-	.messages {
-		background-color: #404040
-	}
-	.message .speaker {
-		color: #f3cc13;
-	}
-	.chat .messages {
-		color: white
-	}
-	.chat .message:nth-child(odd) {
-		background-color: #282828
-	}
-	.chat .message {
-		background-color: #404040;
-		border-bottom: 0
-	}
-	.chat .message.mention {
-		color: #f3cc13;
-		font-weight: bold;
-		background: none!important
-	}
-	.floating-panel-bar {
-		background: linear-gradient(to bottom, #666, #404040);
-		border-top: 1px #666;
-		border-bottom: 1px #666;
-		box-shadow: none;
-	}
-	.message-input {
-		color: #666;
-		box-shadow: inset 0 0 0 1px #484848
-	}
+#songs {
+	background-color: #404040!important
+}
+.song-list {
+	background: #404040!important
+}
+.song-list ul.songs {
+	background: #404040!important
+}
+.song .progress {
+	background-color: #f3cc13;!important
+}
+/*Room tab*/
+.sliding-nav .sliding-nav-pane-content {
+	background-color: #404040;!important
+}
+.tabbed-panel a,
+.tabbed-panel a:visited {
+	color: #f3cc13!important
+}
+.room-tab .room-info-intro {
+	color: white;!important
+border-bottom: 0!important
+}
+.room-tab .room-info-wrap {
+	background: #404040;!important
+border-bottom: 0;!important
+}
+.room-tab .room-name,
+.room-tab .num-listeners,
+.room-tab .description-wrap {
+	color: white;!important
+}
+.flat-button {
+	background-color: #404040;!important
+background-image: linear-gradient(to bottom, #484848, #303030);!important
+border: none;!important
+color: white;!important
+box-shadow: 1px 1px 1px black;!important
+}
+.flat-button:hover {
+	background: none;!important
+border: none;!important
+}
+.room-tab .room-info-link h3 {
+	color: white;!important
+}
+/*recently played*/
+.striped-list > :nth-child(odd):not(.separator),
+.song-list > ul > :nth-child(odd):not(.separator) {
+	background: #282828;!important
+border: 0;!important
+}
+.striped-list > :nth-child(even):not(.separator),
+.song-list > ul > :nth-child(even):not(.separator) {
+	background: #404040;!important
+border: 0;!important
+}
+.striped-list > :nth-child(odd):not(.separator):not(.no-hover):hover,
+.song-list > ul > :nth-child(odd):not(.separator):not(.no-hover):hover {
+	background: #404040;!important
+}
+.striped-list > :nth-child(even):not(.separator):not(.no-hover):hover,
+.song-list > ul > :nth-child(even):not(.separator):not(.no-hover):hover {
+	background: #282828;!important
+}
+.song .title,
+.song .details {
+	color: white!important
+}
+/*trending songs*/
+.default-message {
+	color: white;!important
+text-shadow: none;!important
+}
+/*people here*/
+.striped-list,
+.conversations-list > ul,
+.message-history,
+.guest-list {
+	background: #404040!important
+}
+.guest-list > :nth-child(even):not(.separator) {
+	background: #282828!important
+}
+.guest-list > :nth-child(odd):not(.separator) {
+	background: #404040!important
+}
+.guest-list .guest-name,
+.guest-count {
+	color: #f3cc13!important
+}
+.guest-list > :nth-child(even):not(.separator):not(.no-hover):hover,
+.guest-list > :nth-child(odd):not(.separator):not(.no-hover):hover {
+	background: #0081b4;!important
+}
+.tabbed-panel .separator {
+	border-top: 0;!important
+border-bottom: 0px;!important
+background-color: #404040;!important
+background-image: linear-gradient(to bottom, #484848, #303030);!important
+text-shadow: 3px 1px #000;!important
+color: white!important
+}
+.sliding-nav .sliding-nav-pane-header {
+	background-color: #484848;!important
+background-image: linear-gradient(to bottom, #484848, #303030);!important
+box-shadow: none;!important
+}
+.sliding-nav .sliding-nav-pane-title {
+	border-top: 0;!important
+border-bottom: 0;!important
+text-shadow: 3px 1px #000;!important
+color: white;!important
+}
+/*chat tab*/
+.messages {
+	background-color: #404040!important
+}
+.message .speaker {
+	color: #f3cc13;!important
+}
+.chat .messages {
+	color: white!important
+}
+.chat .message:nth-child(odd) {
+	background-color: #282828!important
+}
+.chat .message {
+	background-color: #404040;!important
+border-bottom: 0!important
+}
+.chat .message.mention {
+	color: #f3cc13;
+	font-weight: bold;!important
+background: none !important
+}
+.floating-panel-bar {
+	background: linear-gradient(to bottom, #666, #404040);!important
+border-top: 1px #666;!important
+border-bottom: 1px #666;!important
+box-shadow: none;!important
+}
+.message-input {
+	color: #666;!important
+box-shadow: inset 0 0 0 1px #484848!important
 }
